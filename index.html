@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birajit Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.8;
+            background-image: url('pexels-veeterzy-303383.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            color: white;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            text-align: center;
+            padding: 30px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            color: #00c3ff;
+        }
+        header nav {
+            margin: 20px 0;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+        img {
+            margin: 20px auto;
+            display: block;
+            border-radius: 50%;
+            border: 5px solid white; /* Updated for better contrast */
+            height: 200px;
+            width: 200px;
+        }
+        .section {
+            width: 80%;
+            margin: 30px auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+        }
+        .section h2 {
+            color: lightcoral;
+            font-size: 2em;
+            text-align: center;
+        }
+        .section p {
+            color: #f1f1f1;
+            text-align: center;
+        }
+        .project-list, .skills-list, .achievements-list, .blog-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+        .project-item, .skill-item, .achievement-item, .blog-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            color: lightgray;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+            color: #ddd;
+        }
+        .resume-download {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .resume-download a {
+            background-color: #00c3ff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .resume-download a:hover {
+            background-color: lightcoral;
+            transition: 0.3s ease; /* Added smooth transition */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Birajit Saikia</h1>
+        <nav>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Awards</a>
+            <a href="#skills">Skills</a>
+            <a href="#blog">Blog</a>
+            <a href="#aim">Aim</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <img src="WhatsApp Image 2024-10-13 at 7.32.29 PM.jpeg" alt="Birajit Saikia's Profile Picture">
+
+    <section class="section about">
+        <h2>About Me</h2>
+        <p>Aspiring software developer with a strong foundation in both front-end and back-end development. I aim to leverage my programming skills and passion for web technologies to contribute to innovative and dynamic projects. Always eager to learn and collaborate in teams to solve real-world problems.</p>
+    </section>
+
+    <section id="projects" class="section projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>Web Development Project</h3>
+                <p>Developed a dynamic website using HTML, CSS, and ReactJS to showcase user portfolios. Integrated REST APIs for dynamic data retrieval and improved UX with Bootstrap.</p>
+            </div>
+            <div class="project-item">
+                <h3>Python Automation Tool</h3>
+                <p>Created a Python-based automation script to streamline repetitive tasks, reducing time spent by 50%. Utilized Python libraries and REST APIs for integration with external services.</p>
+            </div>
+            <div class="project-item">
+                <h3>AI Chatbot</h3>
+                <p>Developed an AI-powered chatbot using natural language processing (NLP) techniques to answer customer queries in real-time.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="section achievements">
+        <h2>Awards and Achievements</h2>
+        <div class="achievements-list">
+            <div class="achievement-item">
+                <p>1st Place, District-Level Technology Quiz: Demonstrated strong knowledge of technology trends.</p>
+            </div>
+            <div class="achievement-item">
+                <p>2nd Place, State-Level Technology Essay Competition: Recognized for an essay on how technology can benefit the environment.</p>
+            </div>
+            <div class="achievement-item">
+                <p>Winner, Hackathon 2024: Developed a real-time collaboration tool using Node.js and WebSockets.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <h2>Coding Skills</h2>
+        <div class="skills-list">
+            <div class="skill-item">Python, Django, REST API</div>
+            <div class="skill-item">HTML, CSS, JavaScript, ReactJS, Node.js</div>
+            <div class="skill-item">Bootstrap, VS Code</div>
+            <div class="skill-item">Advanced Excel, MS-Excel</div>
+        </div>
+    </section>
+
+    <section id="blog" class="section blog">
+        <h2>Blog</h2>
+        <div class="blog-list">
+            <div class="blog-item">
+                <h3>Understanding REST APIs</h3>
+                <p>An introduction to RESTful services and how they power modern web applications.</p>
+            </div>
+            <div class="blog-item">
+                <h3>AI and Machine Learning Basics</h3>
+                <p>An overview of artificial intelligence and machine learning techniques for beginners.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section additional-skills">
+        <h2>Additional Skills</h2>
+        <div class="skills-list">
+            <div class="skill-item">Creative Writing</div>
+            <div class="skill-item">English Proficiency (Written)</div>
+            <div class="skill-item">Android Development</div>
+        </div>
+    </section>
+
+    <section id="aim" class="section aim">
+        <h2>My Aim</h2>
+        <p>My aim is to become a proficient full-stack developer, contributing to innovative projects that make a difference. I also plan to explore the field of artificial intelligence and contribute to its growing potential in solving complex problems.</p>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contact Me</h2>
+        <p>Email: birajitsaikia@gmail.com</p>
+        <p>Phone: +91-9707578703</p>
+    </section>
+
+    <section class="resume-download">
+        <a href="BirajitSaikia_InternshalaResume.pdf" download>Download My Resume</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Birajit Saikia. All rights reserved.</p>
+    </footer>
+</body>
+</html>
